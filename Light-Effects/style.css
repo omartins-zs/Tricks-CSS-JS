@@ -1,0 +1,32 @@
+/*
+Autor: Lucas Genari
+Data: 15/06/2020
+GitHub: https://github.com/xcasluw
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poopins", sans-serif;
+  background-image: linear-gradient(
+    to left bottom,
+    rgb(0, 0, 0),
+    rgb(36, 36, 36)
+  );
+}
+
+h1 {
+  font-size: 7rem;
+  color: #222;
+  font-weight: 700;
+}
